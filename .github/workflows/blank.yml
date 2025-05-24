@@ -7,7 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Email
-        run: echo "Running job for email: 23f2004569@ds.study.iitm.ac.in"
+        run: |
+          echo "Running job for email: 23f2004569@ds.study.iitm.ac.in"
       
       - name: Print Hello World
-        run: echo "Hello, world!"
+        run: |
+          echo "Hello, world!"
